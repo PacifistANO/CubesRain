@@ -2,6 +2,7 @@ using System.Collections;
 using System.Drawing;
 using UnityEngine;
 
+[RequireComponent(typeof(Renderer))]
 public class Cube : MonoBehaviour 
 {
     private const string Color = "_Color";
